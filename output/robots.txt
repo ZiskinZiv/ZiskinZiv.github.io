@@ -1,0 +1,4 @@
+Sitemap: https://ziskinziv.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: ziskinziv.github.io

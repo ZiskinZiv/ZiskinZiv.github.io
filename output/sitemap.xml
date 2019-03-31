@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+ <url>
+  <loc>https://ziskinziv.github.io/</loc>
+  <lastmod>2019-03-31T10:09:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://ziskinziv.github.io/2019/</loc>
+  <lastmod>2019-03-31T10:09:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://ziskinziv.github.io/archive.html</loc>
+  <lastmod>2019-03-31T10:09:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://ziskinziv.github.io/categories/</loc>
+  <lastmod>2019-03-31T10:09:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://ziskinziv.github.io/galleries/</loc>
+  <lastmod>2019-03-31T10:09:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://ziskinziv.github.io/listings/</loc>
+  <lastmod>2019-03-31T10:09:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://ziskinziv.github.io/pages/about/</loc>
+  <lastmod>2019-03-31T10:09:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://ziskinziv.github.io/posts/test/</loc>
+  <lastmod>2019-03-31T10:09:00Z</lastmod>
+ </url>
+</urlset>
