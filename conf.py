@@ -16,7 +16,7 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "Shlomi Ziskin Ziv"  # (translatable)
-BLOG_TITLE = ""  # (translatable)
+BLOG_TITLE = "AI in science = challenge accepted"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://ziskinziv.github.io/"
@@ -25,6 +25,11 @@ SITE_URL = "https://ziskinziv.github.io/"
 # BASE_URL = "https://example.com/"
 BLOG_EMAIL = "shlomiziskin@gmail.com"
 BLOG_DESCRIPTION = "Using machine learning and data science tools in everyday scientific challanges!"  # (translatable)
+BIOGRAPHY = """
+<img class="img-circle" style="float:left;margin:10px 20px 10px 0px;max-height:200px;" src="/images/shlomi_avater.jpeg">
+<p>Hello!, my name is Shlomi Ziskin Ziv, an atmospheric and climate physicist with a keen inerest in machine learning and its application to the scientific community
+</p>
+"""
 
 # Nikola is multilingual!
 #
@@ -151,7 +156,7 @@ NAVIGATION_ALT_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "bootblog4"
+THEME = "material-theme"
 
 # Primary color of your theme. This will be used to customize your theme.
 # Must be a HEX value.
@@ -1336,7 +1341,37 @@ WARN_ABOUT_TAG_METADATA = False
 
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.
-GLOBAL_CONTEXT = {}
+GLOBAL_CONTEXT = {
+    "biography": BIOGRAPHY,
+    'author_avatar': '/images/shlomi_avater.jpeg',
+    "social_links": [
+        {
+            'bgcolor': "#F44336",
+            'icon': "<i class='fa fa-share-square-o'></i>"
+        },
+        {
+            "url": "https://twitter.com/",
+            "bgcolor": "#55ACEE",
+            "color": "#fffff",
+            "icon": "<i class='fa fa-twitter'></i>",
+            "target": "_blank"
+        },
+        {
+            "url": "https://github.com/",
+            "bgcolor": "#666666",
+            "color": "#fffff",
+            "icon": "<i class='fa fa-github-square'></i>",
+            "target": "_blank"
+        },
+        {
+            "url": "https://www.facebook.com",
+            "bgcolor": "#3B5998",
+            "color": "#fffff",
+            "icon": "<i class='fa fa-facebook'></i>",
+            "target": "_blank"
+        },
+    ]
+}
 
 # Add functions here and they will be called with template
 # GLOBAL_CONTEXT as parameter when the template is about to be
