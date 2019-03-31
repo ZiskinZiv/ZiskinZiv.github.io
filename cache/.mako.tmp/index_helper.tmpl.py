@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1554027741.1530075
+_modified_time = 1554027831.4807434
 _enable_loop = True
 _template_filename = '/home/shlomi/anaconda3/lib/python3.6/site-packages/nikola/data/themes/bootstrap4/templates/index_helper.tmpl'
 _template_uri = 'index_helper.tmpl'
@@ -27,8 +27,8 @@ def render_body(context,**pageargs):
 def render_html_pager(context):
     __M_caller = context.caller_stack._push_frame()
     try:
-        prevlink = context.get('prevlink', UNDEFINED)
         messages = context.get('messages', UNDEFINED)
+        prevlink = context.get('prevlink', UNDEFINED)
         nextlink = context.get('nextlink', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
