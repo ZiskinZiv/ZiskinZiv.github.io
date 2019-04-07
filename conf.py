@@ -16,7 +16,7 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "Shlomi Ziskin Ziv"  # (translatable)
-BLOG_TITLE = "AI in science = challenge accepted"  # (translatable)
+BLOG_TITLE = "Fit Predict Commit"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://ziskinziv.github.io/"
@@ -24,7 +24,7 @@ SITE_URL = "https://ziskinziv.github.io/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://example.com/"
 BLOG_EMAIL = "shlomiziskin@gmail.com"
-BLOG_DESCRIPTION = "Using machine learning and data science tools in everyday scientific challanges!"  # (translatable)
+BLOG_DESCRIPTION = "A Jupyter blog about machine learning, science and coding."  # (translatable)
 BIOGRAPHY = """
 <img class="img-circle" style="float:left;margin:10px 20px 10px 0px;max-height:200px;" src="/images/shlomi_avater.jpeg">
 <p>Hello!, my name is Shlomi Ziskin Ziv, an atmospheric and climate physicist with a keen inerest in machine learning and its application to the scientific community
