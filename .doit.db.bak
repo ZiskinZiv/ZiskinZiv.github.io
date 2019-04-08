@@ -6,7 +6,7 @@
 'render_taxonomies:output/categories/index.html', (89088, 1898)
 'copy_assets:output/assets/js/html5shiv-printshiv.min.js', (7680, 433)
 'render_site', (8192, 56)
-'sitemap:output/sitemap.xml', (8704, 1440)
+'sitemap:output/sitemap.xml', (8704, 1441)
 'render_taxonomies', (10240, 56)
 'copy_assets:output/assets/css/code.css', (10752, 141)
 'copy_assets:output/assets/js/justified-layout.min.js', (11264, 428)
